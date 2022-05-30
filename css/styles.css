@@ -5,8 +5,8 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400, 500, 700, 900;
     color:#212121;
+    margin: 0;
 }
 :root {
     --brand-color: #2196F3;
@@ -24,7 +24,7 @@ ul {
     padding: 0;
 }
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .section {
@@ -131,6 +131,9 @@ ul {
     color: var(--bright-color);
 }
 /* lorem ipsum */
+.contents {
+    padding-bottom: 0;
+}
 .contents-title {
     font-size: var(--detail-font);
     line-height: 1.14;
