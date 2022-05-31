@@ -39,13 +39,13 @@ ul {
 .header .navigation {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin-left: 215px;
 }
 .header-contact {
-    display: flex; 
+    display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 12px;
+    margin-right: 215px;
 }
 .contact-item1 {
     margin-right: 50px;
@@ -102,6 +102,7 @@ ul {
 .contact .link:visited {
     color: var(--detail-color);
 }
+/* banner */
 .head {
     background-color: var(--body-color);
     display: flex;
@@ -164,7 +165,7 @@ ul {
 }
 .expansion-img {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 /* nasz zespół */
 .team {
@@ -179,6 +180,7 @@ ul {
     color: #212121;
     font-weight: 500;
     padding-top: 30px;
+    margin-top: 0;
 }
 .team-name-line2 {
     color: var(--detail-color);
@@ -198,9 +200,7 @@ ul {
 }
 .team-items {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 15px;
-    margin-right: 15px;
+    justify-content: space-between;
 }
 .team-items li {
     width: 270px;
@@ -214,10 +214,10 @@ ul {
     font-style: normal;
     font-size: var(--detail-font);
     line-height: 1.71;
-    margin-left: 30px;
+    margin-left: 215px;
 }
 .footer-link {
-    margin-left: 30px;
+    margin-left: 215px;
 }
 /* portfolio - przyciski z filtrami*/
 .filter-button {
@@ -274,15 +274,13 @@ ul {
 }
 .offer-class {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    margin-left: -10px;
     margin-top: -10px;
 }
 .offer-class-item {
     width: 370px;    
-    margin-left: 10px;
     margin-top: 10px;
 
 }
