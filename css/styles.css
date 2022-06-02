@@ -16,36 +16,43 @@ body {
     --detail-font: 14px;
     --subject-font: 16px;
 }
-h1, h2, h3, {
-    margin: 0;
-    padding: 0;
-}
 ul {
+    margin: 0;
     padding: 0;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .header {
-    display: flex;
+    margin-left: 0;
+}
+.header {
     background: var(--bright-color);
     border-bottom: 1px solid #ECECEC;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
 }
 .navigation {
     display: flex;
     align-items: center;
-    margin-left: 215px;
 }
 .header-contact {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     margin-left: auto;
-    margin-right: 215px;
+
 }
 .contact-item1 {
     margin-right: 50px;
@@ -116,6 +123,8 @@ ul {
     text-shadow: 0px 4px 4px 0px #000000 25%;
     max-width: 600px;
     text-align: center;
+    margin: 0;
+    padding-top: 200px;
 }
 .head> .head-button,
 .head>.head-button:active {
@@ -127,6 +136,8 @@ ul {
     line-height: 1.875;
     border: none;
     border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 200px;
 }
 .head-title, .head-button {
     color: var(--bright-color);
@@ -148,8 +159,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 .contents-items li {
     width: 270px;
@@ -162,6 +171,8 @@ ul {
     line-height: 1.16;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding-bottom: 50px;
 }
 .expansion-img {
     display: flex;
@@ -214,10 +225,14 @@ ul {
     font-style: normal;
     font-size: var(--detail-font);
     line-height: 1.71;
-    margin-left: 215px;
+    padding-top: 20px;
+
 }
-.footer-link {
-    margin-left: 215px;
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+
 }
 /* portfolio - przyciski z filtrami*/
 .filter-button {
@@ -235,6 +250,8 @@ ul {
 .filter {
     display: flex;
     justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 34px;
 }
 .filter1, .filter5 {
     width: 121px;
